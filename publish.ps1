@@ -1,4 +1,4 @@
-param([Parameter(Mandatory)][string]$BuildDir)
+param([Parameter(Mandatory)][string]$BuildDir, [string]$Icon)
 $ErrorActionPreference = 'Stop'
 
 $name = Split-Path $BuildDir -Leaf
@@ -6,18 +6,21 @@ $dest = Join-Path $PSScriptRoot "plugins\$name"
 New-Item -ItemType Directory -Force $dest | Out-Null
 Copy-Item (Join-Path $BuildDir "$name.json") $dest
 Copy-Item (Join-Path $BuildDir 'latest.zip') $dest
+if ($Icon) { Copy-Item $Icon (Join-Path $dest 'icon.png') }
 
 $base = 'https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins'
 $entries = Get-ChildItem (Join-Path $PSScriptRoot 'plugins\*\*.json') | ForEach-Object {
     $m = Get-Content $_.FullName -Raw | ConvertFrom-Json
     $link = "$base/$($m.InternalName)/latest.zip"
     $zip = Get-Item (Join-Path $_.DirectoryName 'latest.zip')
-    $m | Add-Member -Force -NotePropertyMembers @{
+    $extra = @{
         DownloadLinkInstall = $link
         DownloadLinkUpdate  = $link
         DownloadLinkTesting = $link
         LastUpdate          = [DateTimeOffset]::new($zip.LastWriteTimeUtc).ToUnixTimeSeconds()
     }
+    if (Test-Path (Join-Path $_.DirectoryName 'icon.png')) { $extra.IconUrl = "$base/$($m.InternalName)/icon.png" }
+    $m | Add-Member -Force -NotePropertyMembers $extra
     $m
 }
 # -InputObject keeps a single entry as a JSON array; Dalamud rejects a bare object.

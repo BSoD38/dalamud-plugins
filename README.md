@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/pluginmaster.json
 Build the plugin in Release, then point the script at DalamudPackager's output folder:
 
 ```powershell
-.\publish.ps1 D:\dev\ffxiv-real-time-ik\FootIk\bin\Release\FootIk
+.\publish.ps1 D:\dev\ffxiv-real-time-ik\FootIk\bin\Release\FootIk -Icon D:\dev\ffxiv-real-time-ik\FootIk\images\icon.png
 ```
 
-It copies `<Name>.json` and `latest.zip` into `plugins/<Name>/`, regenerates `pluginmaster.json`, commits and pushes.
+It copies `<Name>.json`, `latest.zip` and the optional icon into `plugins/<Name>/`, regenerates `pluginmaster.json`, commits and pushes.

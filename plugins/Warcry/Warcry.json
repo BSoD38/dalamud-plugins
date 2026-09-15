@@ -1,0 +1,22 @@
+{
+  "Author": "BSoD38",
+  "Name": "Warcry",
+  "InternalName": "Warcry",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Plays user-supplied audio clips in 3D space when you use actions. Clips are mapped per action and per character voice type from an in-game editor.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/BSoD38/Warcry",
+  "Tags": [
+    "audio",
+    "voice",
+    "combat",
+    "roleplay"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Play your own voicelines when you use an action.",
+  "AcceptsFeedback": false
+}

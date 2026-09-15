@@ -1,0 +1,22 @@
+{
+  "Author": "BSoD38",
+  "Name": "Analog Keyboard",
+  "InternalName": "AnalogKeyboard",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Analog movement for keyboards with analog keys (Wooting, Razer Analog, DrunkDeer, NuPhy, Keychron HE and others). Press a movement key lightly to walk, fully to run.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/BSoD38/ffxiv-analog-keyboard",
+  "Tags": [
+    "movement",
+    "analog",
+    "hardware",
+    "wooting"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Walk or run depending on how far you press.",
+  "AcceptsFeedback": false
+}

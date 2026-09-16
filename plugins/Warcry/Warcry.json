@@ -2,7 +2,7 @@
   "Author": "BSoD38",
   "Name": "Warcry",
   "InternalName": "Warcry",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "Plays user-supplied audio clips in 3D space when you use actions. Clips are mapped per action and per character voice type from an in-game editor.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BSoD38/Warcry",

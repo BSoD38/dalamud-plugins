@@ -2,7 +2,7 @@
   "Author": "BSoD38",
   "Name": "Inverse Kinematics",
   "InternalName": "FootIk",
-  "AssemblyVersion": "0.3.3.1",
+  "AssemblyVersion": "0.4.0.0",
   "Description": "Real-time inverse kinematics for your character. Bends the legs against the game's world so the feet rest on slopes and steps instead of clipping through or floating, lean into slopes while running, and many other features.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BSoD38/ffxiv-real-time-ik",

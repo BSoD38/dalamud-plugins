@@ -53,6 +53,32 @@
     },
     {
         "Author":  "BSoD38",
+        "Name":  "TysiTweaks",
+        "InternalName":  "TysiTweaks",
+        "AssemblyVersion":  "0.1.0.0",
+        "Description":  "Small quality of life tweaks, each one individually toggleable. Configured through a native game window.",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/BSoD38/ffxiv-tysitweaks",
+        "Tags":  [
+                     "ui",
+                     "tweaks",
+                     "qol"
+                 ],
+        "DalamudApiLevel":  15,
+        "LoadRequiredState":  0,
+        "LoadSync":  false,
+        "CanUnloadAsync":  false,
+        "LoadPriority":  0,
+        "Punchline":  "A personal collection of quality of life tweaks.",
+        "AcceptsFeedback":  false,
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/latest.zip",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/latest.zip",
+        "IconUrl":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/icon.png",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/latest.zip",
+        "LastUpdate":  1789514770
+    },
+    {
+        "Author":  "BSoD38",
         "Name":  "Warcry",
         "InternalName":  "Warcry",
         "AssemblyVersion":  "0.2.0.0",

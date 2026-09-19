@@ -2,7 +2,7 @@
   "Author": "BSoD38",
   "Name": "TysiTweaks",
   "InternalName": "TysiTweaks",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.2.0.0",
   "Description": "Small quality of life tweaks, each one individually toggleable. Configured through a native game window.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/BSoD38/ffxiv-tysitweaks",

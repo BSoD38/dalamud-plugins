@@ -55,7 +55,7 @@
         "Author":  "BSoD38",
         "Name":  "TysiTweaks",
         "InternalName":  "TysiTweaks",
-        "AssemblyVersion":  "0.2.1.0",
+        "AssemblyVersion":  "0.3.0.0",
         "Description":  "Small quality of life tweaks, each one individually toggleable. Configured through a native game window.",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/BSoD38/ffxiv-tysitweaks",
@@ -75,7 +75,7 @@
         "DownloadLinkInstall":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/latest.zip",
         "IconUrl":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/icon.png",
         "DownloadLinkUpdate":  "https://raw.githubusercontent.com/BSoD38/dalamud-plugins/main/plugins/TysiTweaks/latest.zip",
-        "LastUpdate":  1789819019
+        "LastUpdate":  1790097343
     },
     {
         "Author":  "BSoD38",
